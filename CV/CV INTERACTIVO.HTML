@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV INTERACTIVO</title>
+    <link rel="stylesheet" href="CV\styles.css">
+    <link rel="stylesheet" href="CV\all.min.css">
+</head>
+<body>
+    
+    <div class="print-area">
+        <div class="header">
+            <img src="CV\FOTO_ROSTRO.jpg">
+            <div class="header-text">
+                <h1>SAID JARSUN</h1>
+                <p>Front-End Developer y Tecnico Quimico</p>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="left-area">
+                <div class="contact">
+                    <h4> Contacto </h4>
+                    <h5> Telefono</h5>
+                    <p> 3875957436</p>
+                    <h5> Email</h5>
+                    <p>saidjarsun@gmail.com</p>
+                </div>
+                <div class="skills">
+                    <h1>HABILIDADES</h1>
+                    <div class="bars">
+                        <div class="bar">
+                            <p>HTML</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>JavaScript</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>P. De Office</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>CSS</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Teamwork</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Database</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>QCDB</p>
+                            <span></span>
+                        </div>
+                        <div class="bar">
+                            <p>Python</p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="follow">
+                    <h1>Redes</h1>
+                    <h4>Instagram</h4>
+                    <a href="https://www.instagram.com/said.jarsun/">https://www.instagram.com/said.jarsun/</a>
+                    <h4>Linkedin</h4>
+                    <a href="https://www.linkedin.com/in/said-jer%C3%B3nimo-jars%C3%BAn-00a413248/">https://www.linkedin.com/in/said-jer%C3%B3nimo-jars%C3%BAn-00a413248/</a>
+                </div>
+            </div>
+
+
+            <div class="right-area">
+                <div class="about">
+                    <h1><span><i class="far fa-user"></i> </span>SOBRE MI</h1>
+                    <p>Técnico químico de alto promedio académico, estudiando actualmente Seguridad informática dispuesto a unirse a
+                        una organización innovadora donde pueda ampliar y desarrollar sus conocimientos y habilidades en el sector.</p>
+                </div>
+
+                <div class="work">
+                    <h1><span><i class="fas fa-suitcase-rolling"></i> </span>EXPERIENCIA</h1>
+                    <div class="work-group">
+                        <h3>Ayudante de cocina</h3>
+                        <h4>Perro Negro</h4>
+                        <span>2020/2023</span>
+                        <p> Venta de alimentos al publico, donde desarrolle experiencia en 
+                            trabajo en equipo, atencion al cliente y eficiencia 
+                            en el espacio laboral</p>
+                    <div class="work-group">
+                        <h3>Auxiliar de laboratorio (Pasantia)</h3>
+                        <h4>Snacko (Wingler Foods)</h4>
+                        <span>2021/2021</span>
+                        <p> Toma de muestras y controles asociados a los alimentos en el laboratorio,
+                            análisis físico-químicos y
+                            Preparación de muestras</p>
+                    </div>
+                </div>
+                <div class="education">
+                    <h1><span><i class="fas fa-book"></i> </span>EDUCACION</h1>
+                    <div class="edu-group">
+                        <h4>Escuela de educacion Tecnica N3141</h4>
+                        <span>2016/2021</span>
+                        <p> Tecnico Quimico</p>
+                    <div class="edu-group">
+                        <h4>Instituto Avellaneda</h4>
+                        <span>2018/2019</span>
+                        <p> Ingles</p>
+                        <div class="edu-group">
+                        <h4>Universidad Catolica de Salta</h4>
+                        <span>2022/2023</span>
+                        <p> Tecnico En Seguridad Informatica</p>
+                    <div class="edu-group">
+                        <h4>Ticmas Academy</h4>
+                        <span>2023</span>
+                        <p> Begineer Desarrollo Front-End</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <button>Imprimir CV</button>
+
+
+
+
+
+    <script src="CV\all.min.js"></script>
+    <script>
+        var btn = document.querySelector("button");
+        btn.onclick = () => {
+            window.print();
+        }
+    </script>
+</body>
+</html>
